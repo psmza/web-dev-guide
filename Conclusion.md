@@ -3,7 +3,7 @@
 <h3 id="recap-of-key-concepts-covered">Recap of Key Concepts Covered:</h3>
 <ol>
 <li>
-<p><strong>Setting Up Development Environment</strong>: Laragon was introduced as a powerful tool to bundle-install all the necessary components, making it easy for students to get started.</p>
+<p><strong>Setting Up Development Environment for the web app</strong>: Laragon was introduced as a powerful tool to bundle-install all the necessary components, making it easy for students to get started.</p>
 </li>
 <li>
 <p><strong>Creating a Login Page</strong>: You learned how to create a basic HTML file for the login page and established the structure for user authentication.</p>
