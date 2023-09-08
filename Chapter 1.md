@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chapter 1</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
-
-<body class="stackedit">
-  <div class="stackedit__left">
-    <div class="stackedit__toc">
-      
-<ul>
-<li>
-<ul>
-<li><a href="#chapter-1-setting-up-the-environment">Chapter 1: Setting Up the Environment</a></li>
-</ul>
-</li>
-</ul>
-
-    </div>
-  </div>
-  <div class="stackedit__right">
-    <div class="stackedit__html">
-      <hr>
+<hr>
 <h2 id="chapter-1-setting-up-the-environment">Chapter 1: Setting Up the Environment</h2>
 <h3 id="installing-laragon">1.1 Installing Laragon</h3>
 <p>Laragon is a powerful local development environment for web development. It provides an integrated platform with Apache, MySQL, PHP, and other essential tools. Follow these steps to install Laragon:</p>
@@ -108,8 +82,3 @@
 <p>With Laragon successfully installed and configured, you now have a robust local development environment ready for building your web application.</p>
 <hr>
 
-    </div>
-  </div>
-</body>
-
-</html>
