@@ -37,9 +37,7 @@
 </ol>
 <pre class=" language-php"><code class="prism  language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
     <span class="token keyword">include_once</span><span class="token punctuation">(</span><span class="token string">'db.php'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
     <span class="token variable">$conn</span> <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">mysqli</span><span class="token punctuation">(</span><span class="token constant">DB_SERVER</span><span class="token punctuation">,</span> <span class="token constant">DB_USERNAME</span><span class="token punctuation">,</span> <span class="token constant">DB_PASSWORD</span><span class="token punctuation">,</span> <span class="token constant">DB_NAME</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
     <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$conn</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token property">connect_error</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
         <span class="token keyword">die</span><span class="token punctuation">(</span><span class="token string">"Connection failed: "</span> <span class="token punctuation">.</span> <span class="token variable">$conn</span><span class="token operator">-</span><span class="token operator">&gt;</span><span class="token property">connect_error</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
@@ -55,7 +53,6 @@
 </ol>
 <pre class=" language-php"><code class="prism  language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
     <span class="token keyword">include_once</span><span class="token punctuation">(</span><span class="token string">'config.php'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
     <span class="token comment">// Rest of your code...</span>
 <span class="token delimiter important">?&gt;</span></span>
 
@@ -83,7 +80,6 @@
     <span class="token variable">$user</span> <span class="token operator">=</span> <span class="token function">mysqli_fetch_assoc</span><span class="token punctuation">(</span><span class="token variable">$result</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
  	<span class="token keyword">echo</span> <span class="token string">"Login Success!"</span>
     <span class="token comment">// Start session and store user details</span>
-
     <span class="token comment">// Redirect based on access level</span>
  	<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$user</span><span class="token punctuation">[</span><span class="token string">'access_level'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'admin'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
  		<span class="token comment">//header("Location: admin_dashboard.php"); </span>

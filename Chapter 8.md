@@ -44,12 +44,10 @@
 <p>In your dashboard pages (<code>user_dashboard.html</code>, <code>staff_dashboard.html</code>, <code>admin_dashboard.html</code>), you can now access the user’s information stored in the session.</p>
 <pre class=" language-php"><code class="prism  language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
     <span class="token function">session_start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
     <span class="token comment">// Check if user is logged in, if not redirect to login page</span>
     <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span><span class="token function">isset</span><span class="token punctuation">(</span><span class="token variable">$_SESSION</span><span class="token punctuation">[</span><span class="token string">'username'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
         <span class="token function">header</span><span class="token punctuation">(</span><span class="token string">"Location: login.html"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
-
     <span class="token comment">// Access session variables</span>
     <span class="token variable">$username</span> <span class="token operator">=</span> <span class="token variable">$_SESSION</span><span class="token punctuation">[</span><span class="token string">'username'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
     <span class="token variable">$access_level</span> <span class="token operator">=</span> <span class="token variable">$_SESSION</span><span class="token punctuation">[</span><span class="token string">'access_level'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>

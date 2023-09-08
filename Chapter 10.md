@@ -116,10 +116,8 @@
     <span class="token operator">&lt;</span>meta charset<span class="token operator">=</span><span class="token string">"UTF-8"</span><span class="token operator">&gt;</span>
     <span class="token operator">&lt;</span>meta name<span class="token operator">=</span><span class="token string">"viewport"</span> content<span class="token operator">=</span><span class="token string">"width=device-width, initial-scale=1.0"</span><span class="token operator">&gt;</span>
     <span class="token operator">&lt;</span>title<span class="token operator">&gt;</span>Login Page<span class="token operator">&lt;</span><span class="token operator">/</span>title<span class="token operator">&gt;</span>
-
     <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> Materialize <span class="token constant">CSS</span> Link <span class="token operator">--</span><span class="token operator">&gt;</span>
     <span class="token operator">&lt;</span>link rel<span class="token operator">=</span><span class="token string">"stylesheet"</span> href<span class="token operator">=</span><span class="token string">"https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"</span><span class="token operator">&gt;</span>
-
     <span class="token operator">&lt;</span>style<span class="token operator">&gt;</span>
         <span class="token comment">/* Additional Custom Styles */</span>
         <span class="token punctuation">.</span>card <span class="token punctuation">{</span>
@@ -149,7 +147,6 @@
             <span class="token operator">&lt;</span><span class="token operator">/</span>form<span class="token operator">&gt;</span>
         <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
     <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
-
     <span class="token operator">&lt;</span><span class="token operator">!</span><span class="token operator">--</span> Materialize JavaScript <span class="token operator">--</span><span class="token operator">&gt;</span>
     <span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">/</span>body<span class="token operator">&gt;</span>
