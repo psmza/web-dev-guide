@@ -78,7 +78,7 @@
 
 <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">mysqli_num_rows</span><span class="token punctuation">(</span><span class="token variable">$result</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token variable">$user</span> <span class="token operator">=</span> <span class="token function">mysqli_fetch_assoc</span><span class="token punctuation">(</span><span class="token variable">$result</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
- 	<span class="token keyword">echo</span> <span class="token string">"Login Success!"</span>
+ 	<span class="token keyword">echo</span> <span class="token string">"Login Success!"</span><span class="token punctuation">;</span>
     <span class="token comment">// Start session and store user details</span>
     <span class="token comment">// Redirect based on access level</span>
  	<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$user</span><span class="token punctuation">[</span><span class="token string">'access_level'</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">'admin'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
